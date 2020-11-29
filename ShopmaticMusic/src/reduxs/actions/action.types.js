@@ -1,0 +1,22 @@
+const actionTypes = {
+
+    // Global actions
+    SHOW_LOADER: "SHOW_LOADER",
+    HIDE_LOADER: "HIDE_LOADER",
+    SHOW_TOAST: 'SHOW_TOAST',
+    HIDE_TOAST: 'HIDE_TOAST',
+
+
+    FETCH_SUCCESS: "FETCH_SUCCESS",
+    FETCH_ERROR: "FETCH_ERROR",
+    FETCH_DATA: "FETCH_DATA",
+    UPDATE_DATA: "UPDATE_DATA",
+
+
+    SEARCH_TRIGGER: "SEARCH_TRIGGER",
+    SEARCH_RESULT: "SEARCH_RESULT",
+    SEARCH_RESET: "SEARCH_RESET"
+
+};
+
+export default actionTypes;
