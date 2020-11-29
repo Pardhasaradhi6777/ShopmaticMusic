@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useLayoutEffect, useContext } from 'react'
+import React, { useEffect, useLayoutEffect, useContext } from 'react'
 import { View, Alert, Text, } from 'react-native'
 import AlbumPlayList from '../../controls/albumPlaylist'
 import CustomLoader from '../../../utils/custom.loader'

@@ -3,7 +3,7 @@ import { SearchBar } from 'react-native-elements';
 import { View, FlatList,} from 'react-native';
 import actionTypes from '../../../reduxs/actions/action.types'
 import {Context} from '../../../../App'
-import { SEARCH_RESULTS_STRING, EMPTY_STRING, NO_RESULTS_FOUND, SEARCH, ARTIST, colors } from '../../../constants/string.constants';
+import { SEARCH_RESULTS_STRING, EMPTY_STRING, SEARCH, ARTIST, colors } from '../../../constants/string.constants';
 import searchStyles from './search.styles';
 import CustomLoader from '../../../utils/custom.loader';
 import { AlbumCell } from '../../controls/albumCell';

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, Text, Dimensions, Image, SafeAreaView, TouchableOpacity } from 'react-native'
+import { View, Text, Image, TouchableOpacity } from 'react-native'
 import { colors, ARTIST, PRICE, RELEASE, IMAGE } from '../../../constants/string.constants';
 import styles from './detail.styles'
 

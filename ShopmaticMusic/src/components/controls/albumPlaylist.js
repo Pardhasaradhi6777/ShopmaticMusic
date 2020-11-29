@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {Context} from '../../../App'
-import { DETAIL_SCREEN, IMAGE, CONTAIN, appFontFamilies } from '../../constants/string.constants';
+import { DETAIL_SCREEN, IMAGE, CONTAIN } from '../../constants/string.constants';
 
 function AlbumPlayList (props) {
 
