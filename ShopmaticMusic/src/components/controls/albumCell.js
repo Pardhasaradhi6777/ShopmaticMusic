@@ -1,5 +1,5 @@
 import React from 'react'
-import { DETAIL_SCREEN, IMAGE, CONTAIN, ARTIST, colors, NEXT } from "../../constants/string.constants"
+import { DETAIL_SCREEN, IMAGE, CONTAIN, ARTIST, colors, NEXT, appFontFamilies } from "../../constants/string.constants"
 import { StyleSheet, Text, Image , TouchableOpacity, View} from "react-native"
 import Ionicons from 'react-native-vector-icons/FontAwesome5';
 
@@ -49,12 +49,14 @@ const styles = StyleSheet.create({
         width:'78%'
     },
     labelText: {
+        fontFamily: appFontFamilies.MULI_BOLD,
         fontSize:18,
         fontWeight: 'bold',
-        color:'white'
+        color:'white',
     },
     label: {
-        fontSize: 18,
+        fontFamily: appFontFamilies.MULI,
+        fontSize: 16,
         marginBottom: -15,
         color:'white',
         paddingTop:8,

@@ -73,6 +73,12 @@
 		<string>UIUserInterfaceStyle</string>
 		<string>Dark</string>
 		<string>Fontisto.ttf</string>
+		<string>muli-bold.ttf</string>
+		<string>muli-semibold.ttf</string>
+		<string>muli.ttf</string>
+		<string>Roboto_medium.ttf</string>
+		<string>Roboto.ttf</string>
+		<string>rubicon-icon-font.ttf</string>
 	</array>
 </dict>
 </plist>

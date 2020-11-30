@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {Context} from '../../../App'
-import { DETAIL_SCREEN, IMAGE, CONTAIN } from '../../constants/string.constants';
+import { DETAIL_SCREEN, IMAGE, CONTAIN, appFontFamilies } from '../../constants/string.constants';
 
 function AlbumPlayList (props) {
 
@@ -61,8 +61,8 @@ const styles = StyleSheet.create({
   title: {
     marginTop: 10,
     marginLeft: 10,
-    fontSize: 20,
-    
+    fontSize: 22,
+    fontFamily: appFontFamilies.MULI_BOLD,
     paddingBottom: 15,
     color: 'white',
   },
@@ -82,8 +82,9 @@ const styles = StyleSheet.create({
   },
   titleText: {
     marginTop: 10,
-    fontSize: 12,
-    height: 30,
+    fontSize: 13,
+    height: 40,
+    fontFamily:appFontFamilies.MULI_SEMI_BOLD,
     color: 'white'
   }
 });

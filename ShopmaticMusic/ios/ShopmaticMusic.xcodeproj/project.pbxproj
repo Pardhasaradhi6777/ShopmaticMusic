@@ -20,6 +20,9 @@
 		9A106FD0126EDF89535F1035 /* libPods-ShopmaticMusic-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE4D8D6987C332353211B67 /* libPods-ShopmaticMusic-tvOSTests.a */; };
 		BB289B23ABE178F2A47BA729 /* libPods-ShopmaticMusic-ShopmaticMusicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 837F50C0E3A6C6CC82F97954 /* libPods-ShopmaticMusic-ShopmaticMusicTests.a */; };
 		FC4AED64CAC73E2CB7118F30 /* libPods-ShopmaticMusic-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E920495C3A6A33A570104682 /* libPods-ShopmaticMusic-tvOS.a */; };
+		215E00E6217E4459AA4F2BAC /* muli-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3114DC4C49434B3E9BFFF1B7 /* muli-bold.ttf */; };
+		C80D232798DD4E58A624C572 /* muli-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 771C1477FEC946F7AF2191B2 /* muli-semibold.ttf */; };
+		2225DD2E574D40EE9862A502 /* muli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD73471146C44570B02AF9B4 /* muli.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		00E356EE1AD99517003FC87E /* ShopmaticMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopmaticMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ShopmaticMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopmaticMusicTests.m; sourceTree = "<group>"; };
+		039E5CF391C24A07BC485407 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		0F5B44C132BC495C8171B96D /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ShopmaticMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopmaticMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ShopmaticMusic/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ShopmaticMusic/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,16 +57,36 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ShopmaticMusic/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ShopmaticMusic/main.m; sourceTree = "<group>"; };
 		236EC15FCEA67ABBE5C021E9 /* Pods-ShopmaticMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopmaticMusic.debug.xcconfig"; path = "Target Support Files/Pods-ShopmaticMusic/Pods-ShopmaticMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		2A77509A273E40AA8954CE64 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ShopmaticMusic-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShopmaticMusic-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ShopmaticMusic-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShopmaticMusic-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339C2376E0A44D8C90152BB5 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		3519354ADC15405A81EE60AA /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		3C6B14A1D88745CCA05FA6AD /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		52653CA8FC8C971244920327 /* libPods-ShopmaticMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShopmaticMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE4D8D6987C332353211B67 /* libPods-ShopmaticMusic-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShopmaticMusic-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6512E8E139174239B4634423 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		701B7F013B4145E4981A324E /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		7DA9843A5763438D8469F396 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ShopmaticMusic/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837F50C0E3A6C6CC82F97954 /* libPods-ShopmaticMusic-ShopmaticMusicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShopmaticMusic-ShopmaticMusicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2072EB3540F25122DB8AF /* Pods-ShopmaticMusic-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopmaticMusic-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ShopmaticMusic-tvOS/Pods-ShopmaticMusic-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8F67F720333D92321E9F5AE5 /* Pods-ShopmaticMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopmaticMusic.release.xcconfig"; path = "Target Support Files/Pods-ShopmaticMusic/Pods-ShopmaticMusic.release.xcconfig"; sourceTree = "<group>"; };
+		90A3596734ED485A90FF4627 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		92E9EFD8CF6E476BB0DEE390 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		9900C868C52E4C70831C8752 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		A3933453E2094159903468A3 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		AC6AE06C80343B720C82B525 /* Pods-ShopmaticMusic-ShopmaticMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopmaticMusic-ShopmaticMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopmaticMusic-ShopmaticMusicTests/Pods-ShopmaticMusic-ShopmaticMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C268137D955643B8ABF27E3F /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		C7D324876479436B98CA040A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		C94EAE53E1DD49B0BA9FEFF0 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		D208BA50EAA5B3C218E06F23 /* Pods-ShopmaticMusic-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopmaticMusic-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopmaticMusic-tvOSTests/Pods-ShopmaticMusic-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4CFD0F01D894BBCA33C6049 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		D4F229189C7447819CE8FF0F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		3114DC4C49434B3E9BFFF1B7 /* muli-bold.ttf */ = {isa = PBXFileReference; name = "muli-bold.ttf"; path = "../src/assets/fonts/muli-bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		771C1477FEC946F7AF2191B2 /* muli-semibold.ttf */ = {isa = PBXFileReference; name = "muli-semibold.ttf"; path = "../src/assets/fonts/muli-semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD73471146C44570B02AF9B4 /* muli.ttf */ = {isa = PBXFileReference; name = "muli.ttf"; path = "../src/assets/fonts/muli.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8D73C8801C141EBAA3C8041 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		DFD4A579362158F785EA24E0 /* Pods-ShopmaticMusic-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopmaticMusic-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ShopmaticMusic-tvOS/Pods-ShopmaticMusic-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E920495C3A6A33A570104682 /* libPods-ShopmaticMusic-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShopmaticMusic-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -136,6 +161,35 @@
 			name = ShopmaticMusic;
 			sourceTree = "<group>";
 		};
+		2C5B5541777E49D9AB01C6F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8D73C8801C141EBAA3C8041 /* AntDesign.ttf */,
+				9900C868C52E4C70831C8752 /* Entypo.ttf */,
+				D4F229189C7447819CE8FF0F /* EvilIcons.ttf */,
+				3C6B14A1D88745CCA05FA6AD /* Feather.ttf */,
+				039E5CF391C24A07BC485407 /* FontAwesome.ttf */,
+				92E9EFD8CF6E476BB0DEE390 /* FontAwesome5_Brands.ttf */,
+				7DA9843A5763438D8469F396 /* FontAwesome5_Regular.ttf */,
+				0F5B44C132BC495C8171B96D /* FontAwesome5_Solid.ttf */,
+				C268137D955643B8ABF27E3F /* Fontisto.ttf */,
+				6512E8E139174239B4634423 /* Foundation.ttf */,
+				339C2376E0A44D8C90152BB5 /* Ionicons.ttf */,
+				A3933453E2094159903468A3 /* MaterialCommunityIcons.ttf */,
+				90A3596734ED485A90FF4627 /* MaterialIcons.ttf */,
+				C7D324876479436B98CA040A /* Octicons.ttf */,
+				2A77509A273E40AA8954CE64 /* Roboto_medium.ttf */,
+				701B7F013B4145E4981A324E /* Roboto.ttf */,
+				C94EAE53E1DD49B0BA9FEFF0 /* rubicon-icon-font.ttf */,
+				D4CFD0F01D894BBCA33C6049 /* SimpleLineIcons.ttf */,
+				3519354ADC15405A81EE60AA /* Zocial.ttf */,
+				3114DC4C49434B3E9BFFF1B7 /* muli-bold.ttf */,
+				771C1477FEC946F7AF2191B2 /* muli-semibold.ttf */,
+				CD73471146C44570B02AF9B4 /* muli.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +215,6 @@
 				D208BA50EAA5B3C218E06F23 /* Pods-ShopmaticMusic-tvOSTests.debug.xcconfig */,
 				00A25E5C27D5700E968EB514 /* Pods-ShopmaticMusic-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -181,6 +234,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				36236820EC6AAC414986ED75 /* Pods */,
+				2C5B5541777E49D9AB01C6F9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -342,6 +396,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				215E00E6217E4459AA4F2BAC /* muli-bold.ttf in Resources */,
+				C80D232798DD4E58A624C572 /* muli-semibold.ttf in Resources */,
+				2225DD2E574D40EE9862A502 /* muli.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

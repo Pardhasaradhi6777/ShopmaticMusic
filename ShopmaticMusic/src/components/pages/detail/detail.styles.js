@@ -20,21 +20,24 @@ export default styles = StyleSheet.create({
         marginLeft: '5%'
     },
     mainTitle: {
-        height: 50,
+        height: 60,
         fontSize:20,
         color:'white',
+        fontFamily: 'muli-semibold',
         width: Dimensions.get('window').width/1.8,
     },
     subtitleOne: {
         marginTop:80,
-        fontSize:17,
+        fontSize:18,
         color:'white',
+        fontFamily: 'muli-semibold',
         width: Dimensions.get('window').width/1.8
     },
     subtitleTwo: {
         marginTop:10,
         fontSize:17,
         color:'white',
+        fontFamily: 'muli',
         width: Dimensions.get('window').width/1.8
     },
     buyStyles: {
@@ -43,11 +46,12 @@ export default styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#2a2d36',
         height: 40,
-        width: 80,
+        width: 90,
         borderRadius: 22
     },
     buyText: {
         alignSelf:'center',
-        color: 'white'
+        color: 'white',
+        fontFamily: 'muli',
     }
 })
